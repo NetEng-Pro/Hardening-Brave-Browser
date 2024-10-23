@@ -1,5 +1,11 @@
 # Hardening-Brave-Browser
 
+>***Note: this list was created by [@finalboss@mas.to](https://mas.to/@finalboss) and it is currently presented in its original form.***
+
+>*Given that the project appears to be abandoned (last activity was 12/2022), it seems an ideal guide to build off of.* ~ SunDevil311
+
+&nbsp;
+
 1) 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 Brave Browser from Brave [𝗚𝗶𝘁𝗵𝘂𝗯 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆](https://github.com/brave/brave-browser)✅
 
 __________________________________________
