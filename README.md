@@ -1,7 +1,53 @@
+<!-- SPDX-License-Identifier: (CC-BY-4.0 OR GPL-3.0-or-later) -->
+<!-- This file is part of Network Engineering Pro -->
+<!--
+
+Network Engineering Pro (NetEng-Pro), a Free/Libre and Open Source Community
+Copyright © 2024 Scott Lopez
+
+---
+
+I. Creative Commons Attribution 4.0 International
+
+Network Engineering Pro (the "Licensed Material") is licensed under Creative Commons Attribution 4.0 International ("CC BY 4.0").
+To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+
+Per the terms of the License, you are free to distribute, remix, adapt, and build upon the Licensed Material for any purpose, even commercially.
+You must give appropriate credit, provide a link to the License, and indicate if changes were made.
+
+The Licensor offers the Licensed Material as-is and as-available, and makes no representations or warranties of any kind concerning the Licensed Material, whether express, implied, statutory, or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, absence of latent or other defects, accuracy, or the presence or absence of errors, whether or not known or discoverable.
+
+Permissions beyond the scope of this License—or instead of those permitted by this License—may be available as further defined within this document.
+
+  SPDX Reference: https://spdx.org/licenses/CC-BY-4.0.html
+  Canonical URL: https://creativecommons.org/licenses/by/4.0/
+
+---
+
+II. GNU General Public License
+
+Network Engineering Pro is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License ("GNU GPL") as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This material is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+FITNESS FOR A PARTICULAR PURPOSE.
+
+See the GNU General Public License for more details.
+
+  SPDX Reference: https://spdx.org/licenses/GPL-3.0-or-later.html
+  Canonical URL: https://www.gnu.org/licenses/gpl-3.0.html
+
+---
+
+Author: Scott Lopez
+Email: <contact@neteng.pro>
+Web: <https://bio.neteng.pro>
+
+-->
+
 # <a id="top">Hardening-Brave-Browser</a>
 
-1. **Download Brave Browser** from [Brave](https://www.brave.com) or GitHub ✅
-   - GitHub: [brave/brave-browser](https://github.com/brave/brave-browser)
+1. **Download Brave Browser** from [Brave](https://www.brave.com) or GitHub:  
+   ✅ [brave/brave-browser](https://github.com/brave/brave-browser)
 
 > _For managing privacy-centric browser installations and updates, we highly
 > recommend **FFUpdater**:_
@@ -45,9 +91,10 @@
    _Strict fingerprinting protection is now a hidden feature_
 
    - Navigate to `brave://flags` and search for
-     "**brave-show-strict-fingerprinting-mode**"
+     `brave-show-strict-fingerprinting-mode`
+   - Toggle the setting to `Enabled` and select the `Relaunch` button
 
-   ![Enable Strict Fingerprinting Mode](./assets/fingerprinting.png "Enable Strict Fingerprinting")
+   ![Enable Strict Fingerprinting Mode](https://raw.githubusercontent.com/NetEng-Pro/Hardening-Brave-Browser/refs/heads/master/assets/fingerprinting.png "Enable Strict Fingerprinting")
 
 &nbsp;
 
@@ -85,19 +132,19 @@
     ![Picsart_22-12-08_15-10-39-560](https://user-images.githubusercontent.com/104879897/206441720-daedc536-d771-48e6-b0f4-4c618285f8e0.jpg)
 
 > [Brave Search](https://search.bravesearch.brave.com) or a self-hosted
-> [SearXNG](https://docs.searxng.org) instance is preferred. Avoid Google and
+> [SearXNG](https://docs.searxng.org) instance is preferable. Avoid Google and
 > Bing at all costs!
 
 > Other options, in order of privacy reputation:
 >
 > - [SearXNG](https://docs.searxng.org)
-> - [Kagi](https://kagi.com)<sup>1</sup>
 > - [Mojeek](https://www.mojeek.com)
 > - [Startpage](https://www.startpage.com)
+> - [Kagi](https://kagi.com)<sup>1</sup>
 > - [DuckDuckGo](https://www.duckduckgo.com)<sup>2</sup>
 
 > Ecosia is also supposedly a very good, privacy-centric search engine. We're
-> not as familiar with this one, so we can't recommend it, but it deserves
+> not as familiar with Ecosia, so we can't recommend it, but it deserves
 > mention.
 
 > <sup>1</sup> <sub>Kagi is a paid service. However, anecdotally we've heard the
@@ -141,21 +188,25 @@
 
 <code style="height: 50vh; width: 100%; background: transparent; border: none; border-radius: 0; resize: none; outline: none;">
 
-**[Network Engineering Pro](https://www.neteng.pro)**, a Free/Libre and Open
-Source Software Community<br /> Copyright &copy; 2024
-**[Scott Lopez](https://linktr.ee/scottlopez)**
+**[Network Engineering Pro](https://neteng.pro/)** (NetEng-Pro), a Free/Libre
+and Open Source Software Community<br /> Copyright &copy; 2024-2025
+**[Scott Lopez](https://bio.neteng.pro)**
 
-This material comes with ABSOLUTELY NO WARRANTY.
+Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)** and
+the **[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**, as published
+by the Free Software Foundation, either version 3 of the License, or (at your
+option) any later version.
 
-_Unless otherwise noted, NetEng-Pro in its' entirety is available, exclusively,
-under one or both of the following two licenses._
+This material is free to distribute, remix, adapt, and build upon for any
+purpose, including commercial use. As free software, it can be redistributed and
+modified under the
+[specified terms](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/assets%2FLICENSE.md#gnu-gpl).
 
-Licensed under **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**.
-You are free to: (a) share and (b) adapt upon this material for any purpose,
-even commercially.
+NetEng-Pro is provided **_as is_** and **_as available_** without any
+warranties, express or implied. The Licensor makes no representations or
+guarantees regarding the Licensed Material and assumes no liability for its use.
 
-This is free software, and you are welcome to redistribute it under
-[certain conditions](./license.md), in accordance with the
-**[GNU GPL](https://spdx.org/licenses/GPL-3.0-or-later.html)**.
+For details, see
+[Copyright and Licensing](https://github.com/NetEng-Pro/neteng-pro.github.io/blob/master/assets%2FLICENSE.md).
 
 </code>
