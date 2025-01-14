@@ -180,8 +180,8 @@ Web: <https://bio.neteng.pro>
 
 ---
 
-**Special thanks to the original publisher of this material,
-[@finalboss@mas.to](https://mas.to/@finalboss).** Forked from
+Special thanks to the original publisher of this material,
+**[@finalboss@mas.to](https://mas.to/@finalboss).** Forked from
 [piyushkumar-prog/Hardening-Brave-Browser](https://github.com/piyushkumar-prog/Hardening-Brave-Browser).
 
 &nbsp;
